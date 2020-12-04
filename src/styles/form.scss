@@ -2,6 +2,7 @@ $white_boder:#ccc;
 $white_font:#f2f2f2;
 .form{
     margin-top: 5%;
+    margin-bottom: 5%;
     border:1px solid $white_boder;
     border-radius: 10px;
     width: 30%;
@@ -35,6 +36,19 @@ $white_font:#f2f2f2;
     justify-content: center;
     align-items: center;
 }
+
+.fade-out {
+    z-index: 999;
+    border-radius: 5px;
+    background-color: green;
+    position: fixed;
+    bottom:10%;
+    display: block;
+    opacity: 0;
+    color: $white_font;
+    width: 300px;
+    text-align: center;
+  }
 
 @media screen and (max-width: 720px) {
     .form{
